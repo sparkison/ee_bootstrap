@@ -1,0 +1,34 @@
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteBase /
+
+        # Removes index.php from ExpressionEngine URLs
+        RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+        RewriteCond %{REQUEST_URI} !/system/.* [NC]
+        RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+        # Directs all EE web requests through the site index file
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>
+
+<ifmodule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+
+<IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresByType image/jpg "access 1 year"
+        ExpiresByType image/jpeg "access 1 year"
+        ExpiresByType image/gif "access 1 year"
+        ExpiresByType image/png "access 1 year"
+        ExpiresByType text/css "access 1 month"
+        ExpiresByType application/pdf "access 1 month"
+        ExpiresByType text/x-javascript "access 1 month"
+        ExpiresByType application/x-shockwave-flash "access 1 month"
+        ExpiresByType image/x-icon "access 1 year"
+        ExpiresDefault "access 2 days"
+</IfModule>
