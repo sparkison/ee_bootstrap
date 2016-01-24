@@ -2,7 +2,7 @@
 ExpressionEngine starter layout with gulp and bower integration
 ---
 
-ee_bootstrap is an ExpressionEngine starter project based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, too help make your ExpressionEngine builds more productive.
+ee_bootstrap is an ExpressionEngine starter project based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass to help make your ExpressionEngine builds more productive.
 
 * Source: [https://github.com/roots/sage](https://github.com/roots/sage)
 * Homepage: [https://roots.io/sage/](https://roots.io/sage/)
