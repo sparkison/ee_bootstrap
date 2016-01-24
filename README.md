@@ -4,13 +4,6 @@ ExpressionEngine starter project
 
 ee_bootstrap is an ExpressionEngine starter project based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass to help make your ExpressionEngine builds more productive.
 
-* Source: [https://github.com/roots/sage](https://github.com/roots/sage)
-* Homepage: [https://roots.io/sage/](https://roots.io/sage/)
-* Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
-* Twitter: [@rootswp](https://twitter.com/rootswp)
-* Newsletter: [Subscribe](http://roots.io/subscribe/)
-* Forum: [https://discourse.roots.io/](https://discourse.roots.io/)
-
 ## Requirements
 
 | Prerequisite    | How to check | How to install
