@@ -1,5 +1,6 @@
 # ee_bootstrap
 ExpressionEngine starter project
+---
 
 ee_bootstrap is an ExpressionEngine starter project based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass to help make your ExpressionEngine builds more productive.
 
