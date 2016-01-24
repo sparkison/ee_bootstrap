@@ -52,7 +52,7 @@ You now have all the necessary dependencies to run the build process.
 
 ### Available gulp commands
 
-* `gulp` — Compile and optimize the files in your assets directory
+* `gulp` — Compile and optimize the files in the assets directory
 * `gulp watch` — Compile assets when file changes are made
 * `gulp --production` — Compile assets for production (no source maps).
 
