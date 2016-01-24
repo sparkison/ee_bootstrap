@@ -1,1 +1,30 @@
-*.DS_Store
+*.sql
+*.swp
+.git
+.cvsignore
+.sass-cache
+.svn
+.hg
+.lock-wscript
+.wafpickle-N
+.DS_Store
+._*
+CVS
+npm-debug.log
+node_modules
+bower_components
+cache
+dist
+db_dumps
+
+# EE Project Specific #
+# ------------------- #
+
+# Configs (commented out for repo, uncomment for production use)
+# */user/config/config.php
+
+# Cache
+*/system/user/cache/*
+sized/
+thumbs/
+_thumbs/
