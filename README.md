@@ -24,7 +24,7 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 
 ## Installation
 
-Bottom line is you want to get the files in this repo into your local development environment. There are many ways to do this, two of which we will cover here.
+There are many ways to do this, two of which we will cover here.
 
 ### via Command-line
 
