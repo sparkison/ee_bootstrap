@@ -52,12 +52,12 @@ Download your copy of [ExpressionEngine](ellislab.com/expressionengine) and copy
 
 ### Install gulp and Bower
 
-Building the project requirements [node.js](http://nodejs.org/download/). We recommend you update to the latest version of npm: `npm install -g npm@latest`.
+Build requirements: [node.js](http://nodejs.org/download/). We recommend you update to the latest version of npm: `npm install -g npm@latest`.
 
 From the command line:
 
 1. Install [gulp](http://gulpjs.com) and [Bower](http://bower.io/) globally with `npm install -g gulp bower`
-2. Navigate to the theme directory, then run `npm install`
+2. Navigate to the **app** directory, then run `npm install`
 3. Run `bower install`
 
 You now have all the necessary dependencies to run the build process.
