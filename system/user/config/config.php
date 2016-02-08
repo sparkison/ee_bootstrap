@@ -53,6 +53,7 @@ $images_url     = $base_url . '/' . $images_folder;
 
 $config['app_version'] = '3.1.1';
 $config['debug'] = ENV_DEBUG === TRUE ? '1' : '0';
+$config['show_profiler'] = ENV_DEBUG === TRUE ? 'y' : 'n';
 $config['cp_url'] = $base_url . '/admin.php';
 $config['doc_url'] = 'https://ellislab.com/expressionengine/user-guide/';
 $config['is_system_on'] = 'y';
