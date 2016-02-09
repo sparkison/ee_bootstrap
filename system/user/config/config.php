@@ -132,6 +132,9 @@ $config['site_url'] = $base_url;
 $config['theme_folder_path'] = $base_path . '/themes/';
 $config['theme_folder_url'] = $base_url . '/themes/';
 
+// Disable saving templates as flat files on server
+$config['save_tmpl_files'] = ENV === 'dev' || ENV === 'local' ? 'y' : 'n';
+
 // END EE config items
 
 
