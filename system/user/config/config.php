@@ -20,31 +20,35 @@ if ( ! defined('ENV'))
 		case 'MYSITE.COM' :
 			define('ENV', 'prod');
 			define('ENV_FULL', 'Production');
+			define('SERVER_NAME', 'MYSITE.COM');
 			define('ENV_DEBUG', FALSE);
 		break;
 
 		case 'STAGING.MYSITE.COM' :
 			define('ENV', 'stage');
 			define('ENV_FULL', 'Staging');
+			define('SERVER_NAME', 'STAGING.MYSITE.COM');
 			define('ENV_DEBUG', FALSE);
 		break;
 
 		case 'LOCAL.DEV' :
 			define('ENV', 'dev');
 			define('ENV_FULL', 'Development');
+			define('SERVER_NAME', 'LOCAL.DEV');
 			define('ENV_DEBUG', TRUE);
 		break;
 
 		default :
 			define('ENV', 'local');
 			define('ENV_FULL', 'Local');
+			define('SERVER_NAME', 'LOCALHOST:8000');
 			define('ENV_DEBUG', TRUE);
 		break;
 	}
 }
 
 $protocol       = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https://' : 'http://';
-$base_url       = $protocol . $_SERVER['HTTP_HOST'];
+$base_url       = $protocol . SERVER_NAME;
 $base_path      = $_SERVER['DOCUMENT_ROOT'];
 $system_folder  = APPPATH . '../';
 $images_folder  = 'images';
