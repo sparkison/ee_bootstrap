@@ -75,7 +75,7 @@ if(ENV === 'prod') {
 			'password' => '',
 			'database' => '',
 			'dbdriver' => 'mysqli',
-			'dbprefix' => 'nerdy_',
+			'dbprefix' => '',
 			'pconnect' => FALSE
 		),
 	);
