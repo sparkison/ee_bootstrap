@@ -17,6 +17,12 @@ cache
 dist
 db_dumps
 
+# eemove
+eemove.jar
+eemove.config
+eemove.ignore
+db_backups
+
 # EE Project Specific #
 # ------------------- #
 
@@ -28,3 +34,5 @@ db_dumps
 sized/
 thumbs/
 _thumbs/
+
+.idea
